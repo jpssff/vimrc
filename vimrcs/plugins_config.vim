@@ -44,9 +44,9 @@ endif
 """"""""""""""""""""""""""""""
 let g:ctrlp_working_path_mode = 0
 
-let g:ctrlp_map = '<c-f>'
-map <leader>j :CtrlP<cr>
-map <c-b> :CtrlPBuffer<cr>
+let g:ctrlp_map = '<c-,>'
+map <leader><leader> :CtrlP<cr>
+map <leader>. :CtrlPBuffer<cr>
 
 let g:ctrlp_max_height = 20
 let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee'
@@ -79,9 +79,9 @@ set grepprg=/bin/grep\ -nH
 let g:NERDTreeWinPos = "right"
 let NERDTreeIgnore = ['\.pyc$']
 let g:NERDTreeWinSize=35
-map <leader>nn :NERDTreeToggle<cr>
-map <leader>nb :NERDTreeFromBookmark 
-map <leader>nf :NERDTreeFind<cr>
+map <leader>ft :NERDTreeToggle<cr>
+map <leader>fb :NERDTreeFromBookmark 
+map <leader>ff :NERDTreeFind<cr>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
